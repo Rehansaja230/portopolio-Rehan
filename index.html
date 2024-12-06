@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografiku</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+</head>
+<body class="bg-gray-900 text-white font-mono bg-animated" style="font-family: 'Orbitron', sans-serif;">
+
+    <header class="py-6 px-8 bg-gray-800">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center"> 
+            <h1 class="text-2xl font-bold flex items-center mb-4 md:mb-0"> 
+                <i class="fas fa-user-astronaut text-blue-500 mr-2 text-3xl"></i> 
+                Muhamad Rehan Firmansyah
+            </h1>
+            <nav>
+                <ul class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6"> 
+                    <li><a href="index.html" class="hover:text-blue-500"><i class="fas fa-home mr-1"></i> Beranda</a></li>
+                    <li><a href="about.html" class="hover:text-blue-500"><i class="fas fa-user mr-1"></i> Tentang Saya</a></li>
+                    <li><a href="contact.html" class="hover:text-blue-500"><i class="fas fa-envelope mr-1"></i> Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="bg-gradient-to-r from-blue-500 to-purple-500 py-20">
+        <div class="container mx-auto text-center">
+            <h1 class="text-5xl font-bold text-white animate-pulse">Muhamad Rehan Firmansyah</h1>
+            <p class="text-2xl text-white mt-4">Biografi | Mahasiswa |  Teknologi Informasi</p> 
+        </div>
+    </section>
+
+    <section class="container mx-auto py-12 px-8 md:py-16 md:px-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div>
+                <img src="aset/fotorehan.jpg" alt="Foto Anda" class="rounded-lg shadow-lg w-full md:max-w-md">
+            </div>
+            <div>
+                <h2 class="text-3xl font-bold mb-4 text-white">Tentang Saya</h2> 
+                <p class="text-lg leading-relaxed mb-6 text-gray-100"> 
+                    Saya adalah seorang mahasiswa Ilmu Komputer yang bersemangat tentang teknologi dan pengembangan web. Saya memiliki minat di bidang UI/UX dan selalu berusaha untuk menciptakan website yang user-friendly dan inovatif.
+                </p>
+                <a href="about.html" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                    Pelajari Lebih Lanjut
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mx-auto py-12 px-8">
+        <h2 class="text-3xl font-bold mb-4 text-gray-800 text-center">Keahlian</h2> 
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                <img src="aset/html.jpeg" alt="HTML" class="w-full h-auto mb-2"> 
+                <h3 class="text-xl font-bold">HTML</h3>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                <img src="aset/CSS.jpeg" alt="CSS" class="w-full h-auto mb-2"> 
+                <h3 class="text-xl font-bold">CSS</h3>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                <img src="aset/php.jpeg" alt="PHP" class="w-full h-auto mb-2"> 
+                <h3 class="text-xl font-bold">PHP</h3>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                <img src="aset/figma.jpeg" alt="UI/UX" class="w-full h-auto mb-2"> 
+                <h3 class="text-xl font-bold">Desain UI/UX</h3>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 px-8 bg-gray-800 text-center">
+        <div class="container mx-auto">
+            <p class="text-gray-500 text-sm">&copy; 2023 Muhamad Rehan Firmansyah</p>
+            <div class="mt-2">
+                <a href="mailto:emailmu@example.com" class="text-gray-400 hover:text-white mr-4">
+                    <i class="fas fa-envelope"></i> rehansaja230@gmail.com
+                </a>
+                
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
